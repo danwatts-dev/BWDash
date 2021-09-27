@@ -1,0 +1,1 @@
+<button class="rounded border py-0.5 px-2" :class="active==$el && 'border-{{ $color }}-500 bg-{{ $color }}-50 text-{{ $color }}-800'" x-on:click="url='{{ $url }}'; fetch(); active=$el;">{{ $label }}</button>
